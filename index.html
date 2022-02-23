@@ -27,6 +27,7 @@
         <span class="mob-header--sign-btn-txt">Записаться</span>
       </button>
     </div>
+    <!-- всплывающее меню -->
     <section class="mob-header--main-nav visually-hidden">
       <ul class="mob-header--main-nav-wrap">
         <li><a href="#">Услуги</a></li>
@@ -37,7 +38,36 @@
       </ul>
       <button type="button" name="button" class="mob-header--main-nav-btn">Записаться</button>
     </section>
+
   </header>
+
+
+  <!-- Форма -->
+  <form action="" method="post" class="form visually-hidden">
+    <div class="form-header-wrap">
+      <h1 class="form-h1">Записаться на прием</h1>
+      <button type="button" name="button" class="close-btn">
+        <img src="./pic/close.svg" alt="закрыть" width="20px" height="20px">
+      </button>
+    </div>
+    <p class="form-text">Заполните форму, и мы свяжемся с вами в ближайшее время</p>
+    <label for="#user-name">Имя</label>
+    <input type="text" name="user-name" id="user-name" placeholder="  Ваше имя" required>
+    <label for="#user-number">Номер телефона</label>
+    <input type="number" name="user-number" id="user-number" placeholder="  +7 (___) ___ __ __" required
+      inputmode="numeric">
+    <button type="submit" name="button" class="button-send">Отправить</button>
+    <p class="form-message">Нажимая кнопку «Отправить», я соглашаюсь с условиями обработки персональных данных</p>
+  </form>
+
+  <div class="form-send visually-hidden">
+    <div class="img">
+      <img src="./pic/mob-form-send.png" alt="эмоджи" width="100px" height="132px">
+    </div>
+    <h2>Заявка отравлена</h2>
+    <p>Спасибо. В ближайшее время мы вам перезвоним</p>
+    <button type="button" name="close" class="button close-form-send" aria-label="Закрыть">Понятно</button>
+  </div>
 
   <div class='background'>
     <main>
@@ -123,3 +153,4 @@
 </body>
 
 </html>
+<div class="block"></div>
