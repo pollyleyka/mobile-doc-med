@@ -56,4 +56,3 @@ sendBtn.addEventListener('click', function (evt) {
   formSend.classList.toggle('visually-hidden');
   form.submit();
 });
-

@@ -1,0 +1,66 @@
+@import "header-style.scss";
+
+.services-wrap {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.services-phrase {
+    font-family: 'Lab Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #1F1F29;
+}
+.services--img{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+    }
+}
+.services-item-container {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+}
+.services-item-head {
+    font-family: 'Lab Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #1F1F29;
+}
+@import "footer-style.scss";
+
+
+
+
+
+
+
+
+
+
+

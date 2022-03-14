@@ -1,0 +1,299 @@
+.mob-header--container {
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  height: 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mob-header--nav {
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 123px;
+  margin-top: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.burger-btn:hover {
+  cursor: pointer;
+}
+
+.mob-header--sign-btn {
+  height: 45px;
+  width: 124px;
+  border-radius: 10px;
+  border: 2px solid #1F1F29;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  background-color: white;
+}
+
+.mob-header--sign-btn-txt {
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #1F1F29;
+}
+
+.mob-header--main-nav {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 303px;
+  width: 375px;
+  padding-top: 10px;
+  position: fixed;
+  background: white;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.mob-header--main-nav-wrap {
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #1F1F29;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 180px;
+}
+
+.mob-header--main-nav-wrap li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mob-header--main-nav-wrap a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mob-header--main-nav-btn {
+  height: 45px;
+  width: 336px;
+  border-radius: 10px;
+  font-family: Lab Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  background: #1F1F29;
+  cursor: pointer;
+  margin-top: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.services-wrap {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.services-phrase {
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: #1F1F29;
+}
+
+.services--img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.services-item-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #FFFFFF;
+  border-radius: 10px;
+  background-color: #ccc;
+  margin: 10px;
+  padding: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.services-item-head {
+  font-family: 'Lab Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #1F1F29;
+}
+
+.footer-wrap1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 12.8%;
+  margin-right: 12.8%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+
+.footer-adress p {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #1F1F29;
+}
+
+.footer-adress p span {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  color: #1F1F29;
+}
+
+.footer-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-contacts a {
+  text-decoration: none;
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  color: #1F1F29;
+}
+
+.footer-contacts p {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #1F1F29;
+}
+
+.social-contacts-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-contacts-group li {
+  margin-left: 15px;
+}
+
+.footer-wrap2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 12.8%;
+  margin-right: 12.8%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.footer-wrap2 p {
+  padding: 0;
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #CAC9D8;
+}
+
+.footer-wrap2 p span {
+  text-transform: uppercase;
+}

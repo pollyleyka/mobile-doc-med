@@ -16,7 +16,7 @@ dd {
   margin: 0;
 }
 
-/* Подключаем шрифты  */
+/* Подключаем шрифты */
 @font-face {
   font-family: 'Lab Grotesque Mono';
   src: url('fonts/LabGrotesqueMono.eot');
@@ -207,7 +207,6 @@ dd {
   border: 0;
   padding: 0;
   white-space: nowrap;
-
   overflow: hidden;
 }
 
@@ -217,110 +216,6 @@ a:-webkit-any-link {
 
 /* ______________________________________________________ */
 
-
-.mob-header--container {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 13px;
-  padding-bottom: 12px;
-  height: 70px;
-  box-sizing: border-box;
-}
-
-.mob-header--nav {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: space-between;
-  width: 123px;
-  margin-top: 12px;
-  box-sizing: border-box;
-}
-
-.burger-btn:hover {
-  cursor: pointer;
-}
-
-.mob-header--sign-btn {
-  height: 45px;
-  width: 124px;
-  border-radius: 10px;
-  border: 2px solid #1F1F29;
-  box-sizing: border-box;
-  cursor: pointer;
-  background-color: white;
-}
-
-.mob-header--sign-btn-txt {
-  font-family: Lab Grotesque;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
-  text-align: center;
-  letter-spacing: 0.01em;
-  color: #1F1F29;
-}
-
-.mob-header--main-nav {
-  box-sizing: border-box;
-  height: 303px;
-  width: 375px;
-  padding-top: 10px;
-  position: fixed;
-  background: white;
-  border-radius: 10px;
-  margin-left: 5px;
-}
-
-.mob-header--main-nav-wrap {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-family: Lab Grotesque;
-  font-style: normal;
-  font-size: 26px;
-  line-height: 120%;
-  letter-spacing: -0.01em;
-  color: #1F1F29;
-  list-style: none;
-  box-sizing: border-box;
-  height: 180px;
-}
-
-.mob-header--main-nav-wrap li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.mob-header--main-nav-wrap a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.mob-header--main-nav-btn {
-  height: 45px;
-  width: 336px;
-  border-radius: 10px;
-  font-family: Lab Grotesque;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
-  text-align: center;
-  letter-spacing: 0.01em;
-  color: #FFFFFF;
-  background: #1F1F29;
-  cursor: pointer;
-  margin-top: 50px;
-  box-sizing: border-box;
-}
 
 /* Главная страница */
 
@@ -355,7 +250,7 @@ a:-webkit-any-link {
 }
 
 .firstpage--title {
-  font-family: Lab Grotesque;
+  font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -371,7 +266,7 @@ a:-webkit-any-link {
 }
 
 .firstpage--text {
-  font-family: Lab Grotesque;
+  font-family: 'Lab Grotesque';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
