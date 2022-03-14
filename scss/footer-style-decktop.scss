@@ -1,0 +1,88 @@
+$ident: 1280px/100px*1%;
+
+.footer-wrap1 {
+display: flex;
+box-sizing: border-box;
+justify-content: space-between;
+margin-left: $ident;
+margin-right: $ident;
+border-bottom: 1px solid #ccc;
+padding-bottom: 40px;
+}
+.footer-adress{
+    p {
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #1F1F29;
+        span{
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 140%;
+            letter-spacing: -0.01em;
+            color: #1F1F29;
+        }
+    }
+
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    a{
+        text-decoration: none;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140%;
+        letter-spacing: -0.01em;
+        color: #1F1F29;
+    }
+    p {
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #1F1F29;
+    }
+}
+.social-contacts-group{
+    display: flex;
+    margin-top: 20px;
+    li{
+        margin-left: 15px;
+    }
+}
+.footer-wrap2{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-left: $ident;
+    margin-right: $ident;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+    p{
+        padding: 0;
+        font-family: 'TT Hoves';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #CAC9D8;
+        span{
+            text-transform: uppercase;
+        }
+
+    }
+
+}
